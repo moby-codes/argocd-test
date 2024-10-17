@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: argocd-rbac-cm
-  namespace: argocd
+  namespace: argo-demo
 data:
   policy.default: role:readonly
   policy.csv: |
