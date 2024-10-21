@@ -38,3 +38,8 @@ terraform.rc
 
 *.envrc
 .envrc
+
+*.crt
+*.key
+localhost.crt
+localhost.key
