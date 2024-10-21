@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  # identifier: argo-demo
   name: nginx
   namespace: argo-demo
   labels:
