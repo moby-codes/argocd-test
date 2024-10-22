@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: my-ocean-argocd-integration
-  namespace: argo-demo
+  namespace: argocd
 spec:
   destination:
     namespace: my-ocean-argocd-integration
