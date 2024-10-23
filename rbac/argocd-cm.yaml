@@ -12,4 +12,4 @@ data:
   #   login - allows to login using UI
   accounts.port-ocean-user: apiKey, login
   # disables user. User is enabled by default
-  accounts.port-ocean-user.enabled: "false"
+  accounts.port-ocean-user.enabled: "true"
