@@ -6,7 +6,7 @@ integration:
   eventListener:
     type: POLLING
   config:
-    serverUrl: http://localhost:8080
+    serverUrl: http://host.docker.internal:8080
   secrets:
     token: TOKEN
 
