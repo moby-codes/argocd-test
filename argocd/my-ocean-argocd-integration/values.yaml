@@ -8,5 +8,5 @@ integration:
   config:
     serverUrl: http://host.docker.internal:8080
   secrets:
-    token: TOKEN
+    token: ${{ secrets.ARGO_USER_TOKEN }}
 
